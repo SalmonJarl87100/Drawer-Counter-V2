@@ -90,7 +90,7 @@ def numFilter(txtVar, deci=False, *args):
 def splitStr(val):
     """
     this func splits a string into a list
-    :param val: this should be a string
+    :param val: a string that will be converted into a list
     :return: a list version of val
     """
     return [char for char in val]
